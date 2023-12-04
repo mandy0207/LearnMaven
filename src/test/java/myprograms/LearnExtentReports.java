@@ -9,7 +9,7 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
-public class LearnExtentReports {
+public class LearnExtentReports  {
 
 	
 	public ExtentReports extent;
@@ -47,7 +47,7 @@ public class LearnExtentReports {
 		ExtentTest test = extent.createTest("failed Test");
 		test.fail("Test Failed");
 		extent.flush();
-		Assert.fail();
+		//Assert.fail();
 	}
 	
 

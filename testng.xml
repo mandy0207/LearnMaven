@@ -3,20 +3,15 @@
 <suite name="Suite">
 <listeners>
 <listener class-name="myprograms.LearnListeners"/>
+  <listener class-name="myprograms.EmailHandler" />
 </listeners>
 
   <test thread-count="5" name="Test1">
     <classes>
    
-      <class name="myprograms.Test1"/>
+      <class name="myprograms.LearnExtentReports"/>
     </classes>
-  </test> <!-- Test -->
+  </test> 
   
-  
-  <test thread-count="5" name="Test2">
-    <classes>
-      <class name="myprograms.Test2"/>
-   
-    </classes>
-  </test> <!-- Test -->
+
 </suite> <!-- Suite -->
